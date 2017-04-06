@@ -1,0 +1,6 @@
+@startuml
+MethodHandles.lookup -> MethodHandles.lookup: initialize statically\nand get functional methods \ninformation during\nclass load time
+[-> LambdaMetaFactory: functional method\ncall
+LambdaMetaFactory -> CallSite : delegates the call passing method\nname, and type\nand MethodHandles.lookup
+CallSite -> MethodHandle : Invoke the call
+@enduml
