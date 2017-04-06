@@ -17,7 +17,7 @@ import java.util.stream.Stream;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
-public class Exercise1 {
+public class SolutionExercise1 {
 
     /**
      * Write function using andThen method to convert integer to string and
